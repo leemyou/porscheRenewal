@@ -31,10 +31,22 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'AvantGarde', 'GmarketSansMedium', 'AvantGardeItelic';
 }
 
 body {
     font-size: 14px;
-    font-family: 'AvantGarde', 'GmarketSansMedium', 'AvantGardeItelic';
+    /* font-family: 'AvantGarde', 'GmarketSansMedium', 'AvantGardeItelic'; */
+    color: #fff;
     background-color: #0D0D0D;
+}
+
+ul, li {
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --main-color: #B3D7E7;
+    --color-gray: #999999;
 }
