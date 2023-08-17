@@ -1,0 +1,38 @@
+section {
+    position: relative;
+    height: 1000px;
+    margin-top: 20rem;
+}
+section .section-container {
+    max-width: 1600px;
+    width: 90%;
+    margin: 0 auto;
+}
+section h1{
+    font-weight: 400;
+    font-size: 9.6rem;
+    font-family: 'GmarketSansMedium';
+    line-height: 12rem;
+}
+section p {
+    font-family: 'GmarketSansMedium';
+    font-weight: 300;
+}
+section > .bg-text {
+    width: 100vw;
+    position: absolute;
+    top: 30vh;
+}
+
+section p{
+    width: calc(50% - 3rem);
+    word-break: keep-all;
+    font-size: 2rem;
+    margin-top: 10rem;
+}
+section .text-01 {
+    float: right;
+}
+section .text-02 {
+    margin-top: 70vh;
+}

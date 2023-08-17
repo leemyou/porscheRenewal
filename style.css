@@ -1,5 +1,6 @@
 @import url(./css/navigation.css);
 @import url(./css/main.css);
+@import url(./css/section.css);
 
 /* @import url('https://fonts.cdnfonts.com/css/cabinet-grotesk'); */
 
@@ -39,6 +40,13 @@ body {
     /* font-family: 'AvantGarde', 'GmarketSansMedium', 'AvantGardeItelic'; */
     color: #fff;
     background-color: #0D0D0D;
+
+    -ms-overflow-style: none; /* 인터넷 익스플로러 */
+    scrollbar-width: none; /* 파이어폭스 */
+}
+/* ( 크롬, 사파리, 오페라, 엣지 ) 동작 */
+body::-webkit-scrollbar {
+    display: none;
 }
 
 ul, li {
@@ -50,3 +58,5 @@ ul, li {
     --main-color: #B3D7E7;
     --color-gray: #999999;
 }
+
+
