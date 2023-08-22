@@ -1,6 +1,7 @@
 @import url(./css/navigation.css);
 @import url(./css/main.css);
 @import url(./css/section.css);
+@import url(./css/footer.css);
 
 /* @import url('https://fonts.cdnfonts.com/css/cabinet-grotesk'); */
 
@@ -52,6 +53,11 @@ body::-webkit-scrollbar {
 ul, li {
     text-decoration: none;
     list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
 }
 
 :root {

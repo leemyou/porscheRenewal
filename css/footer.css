@@ -1,0 +1,86 @@
+footer{
+    margin-bottom: 10vh;
+}
+.footer-top {
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    padding-bottom: 3rem;
+}
+
+.footer-top-left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.footer-top-left > svg{
+    width: 70%;
+    fill: #fff;
+}
+.footer-top .text-wrap > h4{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: .8rem;
+}
+.footer-top-left > .text-wrap > div {
+    display: flex;
+    flex-direction: row;
+}
+.footer-top .text-wrap p{
+    font-size: .875rem;
+}
+.footer-top-left > .text-wrap p:last-child{
+    color: var(--color-gray);
+    text-decoration: underline;
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: .2s;
+}
+.footer-top-left > .text-wrap p:last-child:hover{
+    color: #afafaf;
+}
+
+.footer-top-center h4 {
+    padding-bottom: 1rem;
+}
+.footer-top-center > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+.footer-top-center > div a{
+    transition: .2s;
+}
+.footer-top-center > div a:hover{
+    color: #dedede;
+}
+
+
+.footer-bottom {
+    border-top: 1px solid #909090;
+    padding: 80px 0 170px 0;
+}
+.footer-bottom > .icon-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-bottom .icon-wrap {
+    width: 42px;
+    height: 42px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    fill: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.footer-bottom > p{
+
+}
