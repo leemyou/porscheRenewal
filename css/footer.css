@@ -3,11 +3,10 @@ footer{
 }
 .footer-top {
     width: 100%;
-    background-color: red;
     display: flex;
     flex-direction: row;
     gap: 10%;
-    padding-bottom: 3rem;
+    padding-bottom: 10rem;
 }
 
 .footer-top-left {
@@ -82,5 +81,20 @@ footer{
     padding: 5px;
 }
 .footer-bottom > p{
-
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+    margin-bottom: 24px;
+}
+.footer-bottom > .link-wrap {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+.footer-bottom > .link-wrap > a {
+    text-decoration: underline;
+}
+.footer-bottom > .link-wrap > a::after{
+    content: '|';
+    margin: 0 3px;
 }

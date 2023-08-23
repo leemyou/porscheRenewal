@@ -10,10 +10,6 @@ main {
     gap: 30px;
 }
 
-main > .main-contents-container {
-    /* height: 100%; */
-    /* width: calc(100% - 3rem - 780px); */
-}
 .main-contents-container > h1 {
     font-size: 11rem;
     line-height: 90%;
