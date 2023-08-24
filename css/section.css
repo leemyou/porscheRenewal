@@ -1,6 +1,7 @@
 section {
     position: relative;
     margin-top: 30vh;
+    background-color: #0D0D0D;
 }
 section .section-container {
     max-width: 1600px;
@@ -8,7 +9,7 @@ section .section-container {
     margin: 0 auto;
 }
 section h1{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 9.6rem;
     font-family: 'GmarketSansMedium';
     line-height: 12rem;
@@ -17,33 +18,35 @@ section h1 > span{
     color: var(--main-color);
 }
 section p {
-    font-family: 'GmarketSansMedium';
     font-weight: 300;
-}
-section > .bg-text {
-    width: 100vw;
-    position: absolute;
-    top: 30vh;
-}
-
-section p{
+    font-family: 'GmarketSansMedium';
     width: calc(50% - 3rem);
     word-break: keep-all;
     font-size: 2rem;
     margin-top: 10rem;
 }
+section > .bg-text {
+    width: 100vw;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 0;
+}
+
 section .text-01 {
     float: right;
 }
 section .text-02 {
-    margin-top: 65vh;
+    margin-top: calc(478px + 8.4rem);
 }
-
 
 .section-dream .img-wrap {
     position: absolute;
-    top: 25vh;
+    width: 1600px;
+    top: 9rem;
     left: 0;
+    z-index: 1;
+    transform: translateX(-50%);
     /* width: 100%; */
 }
 .section-dream .img-wrap > img{
