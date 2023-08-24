@@ -46,14 +46,6 @@ main {
     flex-wrap: wrap;
     gap: 1.2rem;
     width: 90%;
-
-}
-.main-contents-container > ul div{
-    display: flex;
-    flex-direction: row;
-}
-.main-contents-container > ul div:last-child{
-    margin-left: 2rem;
 }
 .main-contents-container > ul li {
     box-sizing: border-box;
