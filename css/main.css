@@ -42,17 +42,21 @@ main {
 .main-contents-container > ul {
     margin-top: 7rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 1.2rem;
+    width: 90%;
+
 }
-.main-contents-container > ul > div{
+.main-contents-container > ul div{
     display: flex;
     flex-direction: row;
 }
-.main-contents-container > ul > div:last-child{
+.main-contents-container > ul div:last-child{
     margin-left: 2rem;
 }
 .main-contents-container > ul li {
+    box-sizing: border-box;
     border: 1px solid var(--color-gray);
     padding: 1.2rem 2rem;
     margin-left: 1.2rem;
